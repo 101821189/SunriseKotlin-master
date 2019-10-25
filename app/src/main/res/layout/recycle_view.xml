@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TableLayout
+                android:id="@+id/TableLayout01"
+                android:layout_width="fill_parent"
+                android:layout_height="167dp"
+                android:gravity="center"
+                android:padding="5sp"
+                android:stretchColumns="0,1">
+
+            <TextView
+                    android:id="@+id/locationTV3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Melbourne, AU"
+                    android:textSize="36sp" />
+            <TableRow
+                    android:id="@+id/TableRow01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2sp"
+                        android:text="Sunrise"
+                        android:textColor="#ffd700"
+                        android:textSize="24sp" />
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2sp"
+                        android:text="Sunset"
+                        android:textColor="#ff8400"
+                        android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                    android:id="@+id/TableRow02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/sunriseTimeTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2sp"
+                        android:text="00:00"
+                        android:textColor="#ffd700"
+                        android:textSize="24sp"></TextView>
+
+                <TextView
+                        android:id="@+id/sunsetTimeTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2sp"
+                        android:text="00:00"
+                        android:textColor="#ff8400"
+                        android:textSize="24sp"></TextView>
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
